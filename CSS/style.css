@@ -1,23 +1,31 @@
 :root {
-  --primary-color: #c4b39c;
+  --primary-color: #4d4d4d;
   --header-color: #dda75c;
+  --link-color: #c4b39c;
 }
 
 body {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   color: var(--header-color);
+  margin: 30px;
+  padding: 10px;
 }
 
 .nav-link {
   text-decoration: none;
+  color: var(--link-color);
+}
+
+p {
   color: var(--primary-color);
 }
 
-@media (max-width: 600) {
-  .photo1 {
-    max-width: 500px;
+@media (min-width: 600px) {
+  .p-width {
+    padding: 40px 300px;
   }
 }
