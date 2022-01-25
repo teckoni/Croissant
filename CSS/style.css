@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #c4b39c;
+  --header-color: #dda75c;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: var(--header-color);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+@media (max-width: 600) {
+  .photo1 {
+    max-width: 500px;
+  }
+}
